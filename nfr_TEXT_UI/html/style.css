@@ -1,0 +1,37 @@
+.container{
+    display: none;
+    position: absolute;
+    background-color:  rgb(3, 161, 252, 0.4);
+    width: 10vw;
+    height: 3vw;
+    left: 2vw;
+    top: 20vw;
+    border-radius: 0.5vw;
+    filter: drop-shadow(0vw 0vw 0.30vw black)
+}
+.key{
+    position: inherit;
+    color: white;
+    font-weight: 999;
+    font-size: 1.75vw;
+    top: 0.25vw;
+    left: 0.5vw;
+    filter: drop-shadow(0vw 0vw 0.2vw black)
+}
+
+.line{
+    position: inherit;
+    background-color: rgb(255, 255, 255, 0.4);
+    width: 0.25vw;
+    height: 100%;
+    left: 2vw;
+}
+
+.text{
+    position: inherit;
+    color: white;
+    font-size: 1.75vw;
+    left: 3.5vw;
+    top: 0.25vw;
+    filter: drop-shadow(0vw 0vw 0.2vw black)
+}
